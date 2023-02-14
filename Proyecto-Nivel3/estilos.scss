@@ -1,0 +1,210 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "GT America", Helvetica, arial, sans-serif;
+    
+}
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-weight: bold;
+}
+
+
+
+.global {
+    width: 100vw;
+    
+}
+
+.spanish {
+    background-color: #45c14e;
+    height: 2.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.8rem;
+    font-family: "GT America", Helvetica, arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    
+}
+.nav {
+    height: 6.7rem;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 25;
+    .nav-der {
+        display: flex;
+        align-items: center;
+        color: #A0B2BC;
+        ul {
+            display: flex;
+            gap: 2.2rem;
+            list-style: none;
+            align-items: center;
+        }
+    }
+    .nav-izq {
+        
+        padding-left: 3rem;
+        border: 1px solid;
+    }
+}
+
+.cua2 {
+    width: 100vw;
+    
+    background: linear-gradient(white, #DFF8EB);
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    // background-image: url(fondo.jpg);
+    // background-repeat: no-repeat;
+    // background-size: 100vw auto;
+    .fondo {
+        margin: 7rem;
+        width: 100vw;
+        height: auto;
+        position: relative;
+        z-index: 10;
+    }
+    .cua2-1 {
+        z-index: 19;
+        // border: 1px solid;
+        width: 90%;
+        display: flex;
+        padding: 0px 2rem;
+        position: absolute;
+        
+        margin: 5rem 0px 6%;
+        align-items: baseline;
+        flex-direction: column;
+        
+        
+        row-gap: 1.6rem;
+        .span1 {
+            font-size: 2rem;
+            font-weight: 600;
+            
+        }
+        .span2 {
+            font-size: 1.4rem;
+            font-weight: 300;
+        }
+        button {
+            padding: 18px 3.4rem;
+            background-color: #45c14e;
+            border: none;
+            border-radius: 2rem;
+            font-size: 1rem;
+            color: white;
+        }
+    }
+}
+.cua1-3 {
+    background-color: #DFF8EB;
+    width: 100vw;
+    height: auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .tres {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 6rem 5rem;
+        div {
+            display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2rem;
+        font-size: 1.5rem;
+        font-weight: 100;
+        text-align: center;
+        }
+    }
+    
+    .titu {
+        font-size: 2.1rem;
+    font-weight: 600;
+    }
+}
+
+////////////////////////////////////////////
+.cua1-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .personas {
+        width: 44rem;
+        height:22rem;
+        background-color: white;
+        box-shadow: rgb(158, 157, 157) 0px 3px 10px;
+        margin-bottom: 10rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////// MEXCLAR COLORES
+.isolate {
+    isolation: isolate;
+  }
+  
+  .obj {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 50%;
+    mix-blend-mode: normal;
+  }
+  
+  .first {
+    background: linear-gradient(rgb(70%, 0%, 30%), rgb(100%, 0%, 60%));
+  }
+  
+  .second {
+    background: linear-gradient(rgb(30%, 70%, 0%), rgb(60%, 100%, 0%));
+    margin-left: 200px;
+  }
+  
+  .third {
+    background: linear-gradient(rgb(0%, 60%, 100%), rgb(0%, 30%, 70%));
+    margin-left: 100px;
+    margin-top: 200px;
+  }

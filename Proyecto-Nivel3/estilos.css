@@ -1,0 +1,171 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "GT America", Helvetica, arial, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-weight: bold;
+}
+
+.global {
+  width: 100vw;
+}
+
+.spanish {
+  background-color: #45c14e;
+  height: 2.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 0.8rem;
+  font-family: "GT America", Helvetica, arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 0px;
+}
+
+.nav {
+  height: 6.7rem;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 25;
+}
+.nav .nav-der {
+  display: flex;
+  align-items: center;
+  color: #A0B2BC;
+}
+.nav .nav-der ul {
+  display: flex;
+  gap: 2.2rem;
+  list-style: none;
+  align-items: center;
+}
+.nav .nav-izq {
+  padding-left: 3rem;
+  border: 1px solid;
+}
+
+.cua2 {
+  width: 100vw;
+  background: linear-gradient(white, #DFF8EB);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cua2 .fondo {
+  margin: 7rem;
+  width: 100vw;
+  height: auto;
+  position: relative;
+  z-index: 10;
+}
+.cua2 .cua2-1 {
+  z-index: 19;
+  width: 90%;
+  display: flex;
+  padding: 0px 2rem;
+  position: absolute;
+  margin: 5rem 0px 6%;
+  align-items: baseline;
+  flex-direction: column;
+  row-gap: 1.6rem;
+}
+.cua2 .cua2-1 .span1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.cua2 .cua2-1 .span2 {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+.cua2 .cua2-1 button {
+  padding: 18px 3.4rem;
+  background-color: #45c14e;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1rem;
+  color: white;
+}
+
+.cua1-3 {
+  background-color: #DFF8EB;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cua1-3 .tres {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 6rem 5rem;
+}
+.cua1-3 .tres div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-align: center;
+}
+.cua1-3 .titu {
+  font-size: 2.1rem;
+  font-weight: 600;
+}
+
+.cua1-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cua1-4 .personas {
+  width: 44rem;
+  height: 22rem;
+  background-color: white;
+  box-shadow: rgb(158, 157, 157) 0px 3px 10px;
+  margin-bottom: 10rem;
+}
+
+.isolate {
+  isolation: isolate;
+}
+
+.obj {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  border-radius: 50%;
+  mix-blend-mode: normal;
+}
+
+.first {
+  background: linear-gradient(rgb(179, 0, 77), rgb(255, 0, 153));
+}
+
+.second {
+  background: linear-gradient(rgb(77, 179, 0), rgb(153, 255, 0));
+  margin-left: 200px;
+}
+
+.third {
+  background: linear-gradient(rgb(0, 153, 255), rgb(0, 77, 179));
+  margin-left: 100px;
+  margin-top: 200px;
+}/*# sourceMappingURL=estilos.css.map */
